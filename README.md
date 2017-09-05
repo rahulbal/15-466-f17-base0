@@ -1,10 +1,26 @@
-# Base0
+# Sheperd Dog game
 
-Base0 is the starter code for the game0 in the 15-466-f17 course. It was developed by Jim McCann, and is hereby released into the public domain.
+Created using the base code 0.
 
-Note that Base0 is attempting to illustrate a very straightfoward "get it done" philosophy of game code design -- I've purposefully removed some of the conveniences one typically uses to sweep things under the rug.
+You are a sheperd dog. You have the smartest bunch of sheep in the world to guard. The sheep are trying to escape and runaway from home.
+If a sheep reaches the brown boundary you it is game over.
+As the sheep run they lose weight and gain muscle mass... i.e they become faster.
+Life is tough being a dog.
 
-This is because game0 *does not need* such conveniences. It is simple because game0 is simple.
+## Mechanics
+
+ - Control the dog with the mouse
+ - The sheep will change direction upon collision to move away from the most recent collision
+ - Be carefull about the direction in which you touch a sheep. You will goad it to go it that direction.
+   NOTE: This a change from the original design document which did not incorporate this. It caused the dog to get occluded.
+   After some play testing the current version was chosen.
+ - Score is displayed at the end of the game. With a prompt to click to continue.
+ - The sheeps get faster with time
+
+## Developer Notes
+
+ The game has been tested on linux platform with GLSL version 3.2 ES on a radeon graphics card.
+ I have achieved a high score of 19.. The game is hard.
 
 ## Requirements
 
@@ -18,7 +34,7 @@ On Linux or OSX these requirements should be available from your package manager
 
 ### Linux
 ```
-  g++ -g -Wall -Werror -o main main.cpp Draw.cpp `sdl2-config --cflags --libs` -lGL
+  g++ -std=c++11 -g -Wall -Werror -o main main.cpp Draw.cpp `sdl2-config --cflags --libs` -lGL
 ```
 or:
 ```
