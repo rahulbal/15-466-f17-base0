@@ -1,13 +1,16 @@
 # Sheperd Dog game
 
 Created using the base code 0 by Rahul Balakrishnan <rbalakr1>
-Find the original design document @ http://graphics.cs.cmu.edu/courses/15-466-f17/game0-designs/hungyuc/
+Find the original design document [here](http://graphics.cs.cmu.edu/courses/15-466-f17/game0-designs/hungyuc/)
 
 You are a sheperd dog. You have the smartest bunch of sheep in the world to guard. The sheep are trying to escape and runaway from home.
 If a sheep reaches the brown boundary you it is game over.
 As the sheep run they lose weight and gain muscle mass... i.e they become faster.
 Life is tough being a dog.
 
+![Screenshot](https://github.com/rahulbal/15-466-f17-base0/blob/master/loading.png)
+
+![Gameplay](https://github.com/rahulbal/15-466-f17-base0/blob/master/gameplay.png)
 ## Mechanics
 
  - Control the dog with the mouse
@@ -17,6 +20,8 @@ Life is tough being a dog.
    After some play testing the current version was chosen.
  - Score is displayed at the end of the game. With a prompt to click to continue.
  - The sheeps get faster with time
+ 
+ ![Score](https://github.com/rahulbal/15-466-f17-base0/blob/master/end_game.png)
 
 ## Developer Notes
 
