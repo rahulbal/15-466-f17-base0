@@ -76,7 +76,7 @@ void draw_D7(float posx, float posy, bool a, bool b, bool c, bool d, bool e, boo
 int main(int argc, char **argv) {
 	//Configuration:
 	struct {
-		std::string title = "Game0: Tennis For One";
+		std::string title = "Game0: Shepard Dog";
 		glm::uvec2 size = glm::uvec2(640, 480);
 	} config;
 

@@ -1,6 +1,7 @@
 # Sheperd Dog game
 
-Created using the base code 0.
+Created using the base code 0 by Rahul Balakrishnan <rbalakr1>
+Find the original design document @ http://graphics.cs.cmu.edu/courses/15-466-f17/game0-designs/hungyuc/
 
 You are a sheperd dog. You have the smartest bunch of sheep in the world to guard. The sheep are trying to escape and runaway from home.
 If a sheep reaches the brown boundary you it is game over.
